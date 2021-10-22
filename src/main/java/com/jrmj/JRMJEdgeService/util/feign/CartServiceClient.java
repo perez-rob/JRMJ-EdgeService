@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.HashMap;
 import java.util.List;
 
-@FeignClient(name = "cart-service")
+@FeignClient(name = "cart-service", url = "https://jrmj-cart-service.herokuapp.com/")
 public interface CartServiceClient {
 
 
