@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@FeignClient(name = "product-service")
+@FeignClient(name = "product-service", url = "https://jrmj-product-service.herokuapp.com/")
 public interface ProductServiceClient {
 
 
